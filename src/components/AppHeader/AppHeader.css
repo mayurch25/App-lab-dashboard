@@ -1,0 +1,47 @@
+.app-header-content {
+  display: flex;
+  padding-top: 5rem;
+  padding-bottom: 1rem;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.main-head-text {
+  font-size: 1.5rem;
+  line-height: 2rem;
+  font-weight: 900;
+}
+.color-main-text {
+  color: #fcad62;
+}
+
+.app-header-title {
+  color: #00011c;
+  font-size: 0.82rem;
+  line-height: 2;
+  margin-right: 30px;
+  font-family: "PoppinsSemiBold";
+}
+.app-header-title:hover {
+  cursor: pointer;
+}
+
+.try-for-free-button {
+  font-family: "PoppinsSemiBold";
+  background-color: #2524f9;
+  padding: 0.5rem 1.5rem;
+  margin-left: 1.25rem;
+  color: #ffffff;
+  border-radius: 40px;
+  border: none;
+}
+
+@media only screen and (max-width: 750px) {
+  .app-header-content {
+    display: none;
+  }
+  .Logo {
+    text-align: center;
+    padding: 0 10px;
+  }
+}

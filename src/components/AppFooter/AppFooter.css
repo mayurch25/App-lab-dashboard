@@ -1,0 +1,46 @@
+.footer-section {
+  padding: 50px 25px 120px;
+  background-color: #09142e;
+}
+.footer-contents {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 1.25rem;
+}
+.app-logo-text {
+  color: #bf854e;
+  font-family: "PoppinsSemiBold";
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+.lab-logo-text {
+  color: #fff;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  font-family: "PoppinsSemiBold";
+}
+.custom-nav-text {
+  color: #fff;
+  margin: 13px 20px 0;
+  font-family: "PoppinsSemiBold";
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+.custom-nav-text:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.social-icon {
+  display: flex;
+  justify-content: center;
+  margin-top: 1.25rem;
+}
+@media only screen and (max-width: 768px) {
+  .footer-contents {
+    flex-direction: column;
+    justify-content: center;
+  }
+}
